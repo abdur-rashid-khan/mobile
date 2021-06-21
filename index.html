@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronics</title>
+    <link rel="shortcut icon" href="resources/img/index.png"type="image/x-icon">
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font wasame/css/all.min.css">
+    <link rel="stylesheet" href="vendors/css/aos.css">
+    <link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body onload="loading()">
+    <div id="preloder"></div>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <div class="logo">
+                        <a href="#">electronics</a>
+                    </div>
+                    <div class="mobileManu">
+                        <div class="hoverMenu" onclick="openManu()">
+                            <a href="javascript:void(0)">
+                                <span></span>
+                                <span></span>
+                                <span></span> 
+                            </a>
+                        </div>
+                        <div id="myNav" class="overaly">
+                            <a href="javascript:void(0)" id="closeBtn"  onclick="closeManu()">&times;</a>
+                            <div class="overlay-content">
+                                <a href="#deals" onclick="closeManu()">Value of the Day</a>
+                                <div class="drop_dowan">
+                                    <a id="dropdown_menu_content" href="javascript:void(0)" onclick="dropdowan()">Top 100 Offers <span><i class="fas fa-chevron-down"></i></span></a>
+                                    
+                                <div id="dropdown_menu">
+                                    <ul>
+                                        <li><a onclick="closeManu()" href="#top_rated">list_1</a></li>
+                                        <li><a onclick="closeManu()" href="#top_rated">list_2</a></li>
+                                        <li><a onclick="closeManu()" href="#top_rated">list_3</a></li>
+                                        <li><a onclick="closeManu()" href="#top_rated">list_4</a></li>
+                                        <li><a onclick="closeManu()" href="#top_rated">list_5</a></li>
+                                        <li><a onclick="closeManu()" href="#top_rated">list_6</a></li>
+                                    </ul>
+                                </div> 
+                                </div>
+                                <a href="#recent" onclick="closeManu()">New Arrivals</a>  
+                                <div class="drop_dowan">
+                                    <a id="dropdown_menu_content" href="javascript:void(0)" onclick="dropdowan()">Computers  offer<span><i class="fas fa-chevron-down"></i></span></a>
+                                    
+                                <div id="dropdown_menu">
+                                    <ul>
+                                        <li><a onclick="closeManu()" href="#head_phone">list_1</a></li>
+                                        <li><a onclick="closeManu()" href="#head_phone">list_2</a></li>
+                                        <li><a onclick="closeManu()" href="#head_phone">list_3</a></li>
+                                        <li><a onclick="closeManu()" href="#head_phone">list_4</a></li>
+                                        <li><a onclick="closeManu()" href="#head_phone">list_5</a></li>
+                                        <li><a onclick="closeManu()" href="#head_phone">list_6</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <a href="#about" onclick="closeManu()">Cameras,Audio & Video</a>
+                                <div class="drop_dowan">
+                                    <a id="dropdown_menu_content" href="javascript:void(0)" onclick="dropdowan()"> Movies &  Music <span><i class="fas fa-chevron-down"></i></span></a>
+                                    
+                                <div id="dropdown_menu">
+                                    <ul>
+                                        <li><a onclick="closeManu()" href="#featured">list_1</a></li>
+                                        <li><a onclick="closeManu()" href="#featured">list_2</a></li>
+                                        <li><a onclick="closeManu()" href="#featured">list_3</a></li>
+                                        <li><a onclick="closeManu()" href="#featured">list_4</a></li>
+                                        <li><a onclick="closeManu()" href="#featured">list_5</a></li>
+                                        <li><a onclick="closeManu()" href="#featured">list_6</a></li>
+                                    </ul>
+                                </div> 
+                                </div>
+                                <a href="#about" onclick="closeManu()">Tv & Audio</a>
+                                <a href="#about" onclick="closeManu()">Watches & Eyewear</a>
+                                <a href="#about" onclick="closeManu()">Car,Motorbike & Industrial</a>
+                                <a href="#about" onclick="closeManu()">Playing</a>
+                                <a href="#about" onclick="closeManu()">Geams</a>
+                                <a href="#about" onclick="closeManu()">Accessories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user_icon">
+                        <ul>
+                            <li><a href="#">
+                                <span><i class="fas fa-search"></i></span>
+                            </a></li>
+                            <li><a href="#">
+                                <span><i class="fab fa-shopify"></i></span>
+                            </a></li>
+                            <li><a href="#">
+                                <span><i class="fas fa-user-circle"></i></span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container">
+            <div id="home_bg"> 
+                <div id="carouselId" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active"> 
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6" id="col_size" data-aos="zoom-out-down">
+                                    <div class="carousel-caption"> 
+                                        <p>shop to get what you love</p>
+                                        <h1>timepieces that make a statement up to <span style="font-weight: bold;font-style: italic;color: #000;">40% off</span></h1>
+                                        <a href="#" id="button">Buying</a>
+                                    </div>
+                                </div> 
+                                <div class="col-sm-6 col-md-6 col-lg-6" id="col_size" data-aos="zoom-out-down">
+                                    <div class="carousel_img">
+                                        <img  class="img-fluid" src="resources/img/Smartphones.png"alt="First slide">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"> 
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6" id="col_size">
+                                    <div class="carousel-caption"> 
+                                        <p>shop to get what you love</p>
+                                        <h1>timepieces that make a statement up to <span style="font-weight: bold;font-style: italic;color: #000;"> 40% off</span></h1>
+                                        <a href="#" id="button">Buying</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6" id="col_size">
+                                    <div class="carousel_img">
+                                        <img class="img-fluid" src="resources/img/Smartwatchess.png"alt="First slide">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"> 
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6" id="col_size">
+                                    <div class="carousel-caption"> 
+                                        <p>shop to get what you love</p>
+                                        <h1>timepieces that make a statement up to <span style="font-weight: bold;font-style: italic;color: #000;">40% off</span></h1>
+                                        <a href="#" id="button">Buying</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6" id="col_size">
+                                    <div class="carousel_img">
+                                        <img class="img-fluid" src="resources/img/Sounddevice.png"alt="First slide">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                        <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                        <span  aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="letest_products" class="py-5">
+        <div class="container">
+            <div class="wraper">
+                <div class="item" data-aos="fade-up"
+                data-aos-duration="3000"data-aos-anchor-placement="top-bottom">
+                    <div id="letest_img">
+                        <img src="resources/img/camera-1.png" alt="fast">
+                    </div>
+                    <div class="letest_text py-5">
+                        <h4>CATCH THE HOTTEST <span style="font-style:italic;color: #000;font-weight: bold;">DEALS</span> IN CAMERAS .</h4>
+                        <p><span style="font-style:italic;color:#e58006;font-size:2rem;">$60 </span>99</p>
+                        <a href="#">shop now <span><i class="fas fa-arrow-right pl-3 h5"></i></span></a>
+                    </div>
+                </div>
+                <div class="item" data-aos="fade-up"
+                data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
+                    <div id="letest_img">
+                        <img src="resources/img/laptop-1.png" alt="2nd">
+                    </div>
+                    <div class="letest_text py-5">
+                        <h4>CATCH THE HOTTEST <span style="font-style:italic;color: #000;font-weight: bold;">DEALS</span> IN CAMERAS .</h4>
+                        <p><span style="font-style:italic;color: #e58006;font-size:2rem;">$60 </span>99</p>
+                        <a href="#">shop now <span><i class="fas fa-arrow-right pl-3 h5"></i></span></a>
+                    </div>
+                </div>
+                <div class="item" data-aos="fade-up"
+                data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
+                    <div id="letest_img">
+                        <img src="resources/img/desktop-1.png" alt="3rd">
+                    </div>
+                    <div class="letest_text py-5">
+                        <h4>CATCH THE HOTTEST <span style="font-style:italic;color: #000;font-weight: bold;">DEALS</span> IN CAMERAS .</h4>
+                        <p><span style="font-style:italic;color: #e58006;font-size:2rem;">$60 </span>99</p>
+                        <a href="#">shop now <span><i class="fas fa-arrow-right pl-3 h5"></i></span></a>
+                    </div>
+                </div> 
+            </div>
+        </div> 
+    </section>
+    <section id="top_rated">
+        <div class="container">
+            <div class="top_header text-center py-5" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic;color: #f15900;font-weight: bold;">Top Rated</h1>
+                <hr>
+            </div>
+            <div class="owl-carousel owl-theme fadeInUp">
+                <div class="items active" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/WirelessSound-300x300.png" class="img-fluid" alt="top_1">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/heade1-300x300.png" class="img-fluid" alt="fast">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/apptablet-300x300.png" class="img-fluid" alt="top_2">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/GoldPhone-1-300x300.png" class="img-fluid" alt="top_3">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/camera2-300x300.png" class="img-fluid" alt="top_4">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/printer-300x300.png" class="img-fluid" alt="top_4">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/redmi-300x300.png" class="img-fluid" alt="top_4">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img/powerbank-300x300.png" class="img-fluid" alt="top_4">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+                <div class="items" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="top_content">
+                        <p>Audio Speakers</p>
+                        <a href="#">Wireless Audio Stystem Multiroom 360.</a>
+                        <img id="img_size" src="resources/img//macpro-300x300.png" class="img-fluid" alt="top_4">
+                        <strong><span>$</span>2,299.00</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="deals"  class="py-5">
+        <div class="container">
+            <div class="diles_header py-4" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic;color: #f15900; font-weight: bold;">Deals of the week</h1>
+                <hr>
+            </div>
+            <div id="carouselId_2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselId_2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselId_2" data-slide-to="1"></li>
+                    <li data-target="#carouselId_2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6"  id="col_size" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <h2><span>20%</span> off</h2>
+                                <div class="deals_items">
+                                    <div class="deals_img">
+                                        <img src="resources/img/one1plus-300x300.png" class="img-fluid" alt="top_1" >
+                                    </div>
+                                    <div class="deals_img_small">
+                                        <ul>
+                                            <li><img id="small_img" src="resources/img/1plus.png" class="img-fluid" alt="" href="#"></li>
+                                            <li><img id="small_img" src="resources/img/1plus_1.png" class="img-fluid" alt="" href="#"></li>
+                                            <li><img id="small_img" src="resources/img/1plas_2.png" class="img-fluid" alt="" href="#"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6"  id="col_size" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <div class="deals_text">
+                                    <a href="#">OnePlus 8 5G UW (Verizon) </a>
+                                    <h3 class="py-5"><span>$</span>150.00 <strong><del><span>$</span>200.00</del></strong></h3>
+                                    <p>Hurry Up! Offer ends in:</p>
+                                </div> 
+                                <div class="set_time_days text-center">
+                                        <h3 class="numb">00:00</h3>
+                                        <h4>Days</h4>
+                                </div>
+                                <div class="set_time_hor text-center">
+                                    <h3 class="numb">00:00</h3>
+                                    <h4>hor</h4>
+                            </div>
+                            <div class="set_time_min text-center">
+                                <h3 class="numb">00:00</h3>
+                                <h4>min</h4>
+                            </div>
+                            <div class="set_time_sec text-center">
+                                <h3 class="numb">00:00</h3>
+                                <h4>sec</h4>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6"  id="col_size" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <h2><span>20%</span> off</h2>
+                                <div class="deals_items">
+                                    <div class="deals_img">
+                                        <img src="resources/img/1-300x300.png" class="img-fluid" alt="top_1">
+                                    </div>
+                                    <div class="deals_img_small">
+                                        <ul>
+                                            <li><img id="small_img" src="resources/img/4-100x100-preview.png" class="img-fluid" alt="" href="#"></li>
+                                            <li><img id="small_img" src="resources/img/3-100x100-preview.png" class="img-fluid" alt="" href="#"></li>
+                                            <li><img id="small_img" src="resources/img/5-100x100-preview.png" class="img-fluid" alt="" href="#"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col-sm-6 col-md-6 col-lg-6"  id="col_size" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <div class="deals_text">
+                                    <a href="#">OnePlus 8 5G UW (Verizon) </a>
+                                    <h3 class="py-5"><span>$</span>150.00 <strong><del><span>$</span>200.00</del></strong></h3>
+                                    <p>Hurry Up! Offer ends in:</p>
+                                </div> 
+                                <div class="set_time_days_s text-center">
+                                        <h3 class="numb_s">00:00</h3>
+                                        <h4>Days</h4>
+                                </div>
+                                <div class="set_time_hor_s text-center">
+                                    <h3 class="numb_s">00:00</h3>
+                                    <h4>hor</h4>
+                            </div>
+                            <div class="set_time_min_s text-center">
+                                <h3 class="numb_s">00:00</h3>
+                                <h4>min</h4>
+                            </div>
+                            <div class="set_time_sec_s text-center">
+                                <h3 class="numb_s">00:00</h3>
+                                <h4>sec</h4>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6"  id="col_size" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <h2><span>20%</span> off</h2>
+                                <div class="deals_items">
+                                    <div class="deals_img">
+                                        <img src="resources/img/consal-300x300.png" class="img-fluid" alt="top_1">
+                                    </div>
+                                    <div class="deals_img_small">
+                                        <ul>
+                                            <li><img id="small_img" src="resources/img/gade1-100x100.png" class="img-fluid" alt="" href="#"></li>
+                                            <li><img id="small_img" src="resources/img/game1-600x550-preview.png" class="img-fluid" alt="" href="#"></li>
+                                            <li><img id="small_img" src="resources/img/GameConsoles-100x100-preview.png" class="img-fluid" alt="" href="#"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6"  id="col_size" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <div class="deals_text">
+                                    <a href="#">OnePlus 8 5G UW (Verizon) </a>
+                                    <h3 class="py-5"><span>$</span>150.00 <strong><del><span>$</span>200.00</del></strong></h3>
+                                    <p>Hurry Up! Offer ends in:</p>
+                                </div> 
+                                <div class="set_time_days_f text-center">
+                                        <h3 class="numb_f">00:00</h3>
+                                        <h4>Days</h4>
+                                </div>
+                                <div class="set_time_hor_f text-center">
+                                    <h3 class="numb_f">00:00</h3>
+                                    <h4>hor</h4>
+                            </div>
+                            <div class="set_time_min_f text-center">
+                                <h3 class="numb_f">00:00</h3>
+                                <h4>min</h4>
+                            </div>
+                            <div class="set_time_sec_f text-center">
+                                <h3 class="numb_f">00:00</h3>
+                                <h4>sec</h4>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="save_section" data-aos="fade-up"
+    data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <div class="save_banner">
+                <img style="border-radius: .5rem;" src="resources/img/home-v5-banner.png" class="img-fluid" alt="save_photo">
+            </div>
+        </div>
+    </section>
+    <section id="best_seller" class="py-5">
+        <div class="container">
+            <div class="best_banner" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic;color: #f15900; font-weight: bold;" >Best sellers</h1>
+                <hr>
+            </div>
+            <div class="owl-carousel owl-theme fadeInUp text-center">
+                <div class="items active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/sam2-300x300.png" class="img-fluid" alt="best_1">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/GoldPhone-1-300x300.png" class="img-fluid" alt="best_2">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/GoldPhone-300x300.png" class="img-fluid" alt="best_3">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/powerbank-300x300.png" class="img-fluid" alt="best_4">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/pendirve-300x300.png" class="img-fluid" alt="best_5">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/segagate-300x300.png" class="img-fluid" alt="best_6">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_img">
+                                <img  src="resources/img/applwatch-300x300.png" class="img-fluid" alt="best_7">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" ata-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <div class="best_content">
+                                <h4>Smartphone </h4>
+                                <a href="#">UX305CA-FACO50T</a>
+                                <p><strong>$</strong>1000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="head_phone">
+        <div class="container">
+            <div class="head_header" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic;color: #f15900; font-weight: bold;">Headphones</h1>
+                <hr>
+            </div>
+        <div class="row py-5">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="headphones_size" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_banner">
+                    <img style="border: none; border-radius: .5rem;" class="img-fluid" src="resources/img/produtcs-with-images-01.jpg" alt="ph_1">
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"id="headphones_size"              data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_text">
+                    <h4>Headphones</h4>
+                    <a href="#">Ultra Wireless S50 Headphones S50 with</a>
+                </div>
+                <div class="head_img">
+                    <img class="img-fluid" src="resources/img/uniheadphone-300x300.png" alt="ph_2">
+                    <p><span>$</span>500.00</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="headphones_size"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_text">
+                    <h4>Headphones</h4>
+                    <a href="#">Ultra Wireless S50 Headphones S50 with</a>
+                </div>
+                <div class="head_img">
+                    <img class="img-fluid" src="resources/img/headphonecase-300x300.png" alt="ph_3">
+                    <p><span>$</span>500.00</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="headphones_size"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_text">
+                    <h4>Headphones</h4>
+                    <a href="#">Ultra Wireless S50 Headphones S50 with</a>
+                </div>
+                <div class="head_img">
+                    <img  style="border: none;" class="img-fluid" src="resources/img/usbheadphone-300x300.png" alt="ph_4">
+                    <p><span>$</span>500.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="head_phone">
+        <div class="container">
+            <div class="head_header"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic;color: #f15900; font-weight: bold;">Laptops & Computers</h1>
+                <hr>
+            </div>
+        <div class="row py-5">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"id="headphones_size"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_banner">
+                    <img style="border: none; border-radius: .5rem;" class="img-fluid" src="resources/img/produtcs-with-images-02.jpg" alt="Laptops_1">
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"id="headphones_size"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_text">
+                    <h4>Laptops</h4>
+                    <a href="#">Ultra Wireless S50 Headphones S50 with</a>
+                </div>
+                <div class="head_img">
+                    <img class="img-fluid" src="resources/img/Ultrabooks-300x300.png" alt="Laptops_1">
+                    <p><span>$</span>500.00</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"id="headphones_size"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_text">
+                    <h4>Laptops</h4>
+                    <a href="#">Ultra Wireless S50 Headphones S50 with</a>
+                </div>
+                <div class="head_img">
+                    <img class="img-fluid" src="resources/img/herobook-pro-plus-1-228x228 .png" alt="Laptops_1">
+                    <p><span>$</span>500.00</p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3"id="headphones_size"  data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <div class="head_text">
+                    <h4>Laptops</h4>
+                    <a href="#">Ultra Wireless S50 Headphones S50 with</a>
+                </div>
+                <div class="head_img">
+                    <img  style="border: none;" class="img-fluid" src="resources/img/herobook-pro-128gb-228x228.png" alt="Laptops_1">
+                    <p><span>$</span>500.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="two_banner" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6"id="headphones_size"   data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <img src="resources/img/two-banner-01.jpg" class="img-fluid" alt="two_banner">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6"id="headphones_size"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <img src="resources/img/two-banner-02.jpg" class="img-fluid" alt="two_banner">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mobile" class="py-5">
+        <div class="container">
+            <div class="head_header" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic;color: #f15900; font-weight: bold;">Smartphones</h1>
+                <hr>
+            </div>
+            <div class="owl-carousel owl-theme fadeInUp pt-5">
+                <div class="items active" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="mobile_text">
+                        <p>Smartphone</p>
+                        <a href="#">Smartphone 6S 32GB LTE </a>
+                    </div>
+                    <div class="mobile_img">
+                        <img src="resources/img/1plus_1.png" class="img-fluid" alt="mobile">
+                        <p><span>$</span>1000.00</p>
+                    </div>
+                </div>
+                <div class="items"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="mobile_text">
+                        <p>Smartphone</p>
+                        <a href="#">Smartphone 6S 32GB LTE </a>
+                    </div>
+                    <div class="mobile_img">
+                        <img src="resources/img/GoldPhone-300x300.png" class="img-fluid" alt="mobile1">
+                        <p><span>$</span>1000.00</p>
+                    </div>
+                </div>
+                <div class="items"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="mobile_text">
+                        <p>Smartphone</p>
+                        <a href="#">Smartphone 6S 32GB LTE </a>
+                    </div>
+                    <div class="mobile_img">
+                        <img src="resources/img/one1plus-300x300.png" class="img-fluid" alt="mobile1">
+                        <p><span>$</span>1000.00</p>
+                    </div>
+                </div>
+                <div class="items"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="mobile_text">
+                        <p>Smartphone</p>
+                        <a href="#">Smartphone 6S 32GB LTE </a>
+                    </div>
+                    <div class="mobile_img">
+                        <img src="resources/img/Nokia-6.2.png" class="img-fluid" alt="mobile1">
+                        <p><span>$</span>1000.00</p>
+                    </div>
+                </div>
+                <div class="items"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="mobile_text">
+                        <p>Smartphone</p>
+                        <a href="#">Smartphone 6S 32GB LTE </a>
+                    </div>
+                    <div class="mobile_img">
+                        <img src="resources/img/OnePlus-Nord-black.jpg" class="img-fluid" alt="mobile1">
+                        <p><span>$</span>1000.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="brand">
+        <div class="container">
+            <div id="barnd" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="img-fluid" src="resources/img/themeforest1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="resources/img/themeforest2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="img-fluid" src="resources/img/themeforest3.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="resources/img/themeforest4.png" alt="4slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="resources/img/themeforest5.png" alt="5 slide">
+                    </div>
+                    
+                </div>
+                </div>
+        </div>
+    </section> -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" data-aos="fade-up"
+                data-aos-duration="1000"data-aos-anchor-placement="top-bottom">
+                    <div class="featured_content">
+                        <div class="header"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <h1 style="font-style: italic; color: #f15900;">Featured Products</h1><hr>
+                        </div>
+                        <div class="items py-2">
+                            <div class="row">
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/GoldPhone-1-300x300.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size"   data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/redmi-300x300.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7" id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/sam2-300x300.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7"id="fauter_size"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/Samsung-Galaxy-A72-image-removebg-preview.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="featured_content">
+                        <div class="header"  data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                            <h1 style="font-style: italic; color: #f15900;">Top Selling Products</h1><hr>
+                        </div>
+                        <div class="items py-2">
+                            <div class="row">
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/segagate-300x300.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7" id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/headphonecase-300x300.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7"id="fauter_size"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/herobook-pro-128gb-228x228.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5"id="fauter_size" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <img src="resources/img/applwatch-300x300.png" class="img-fluid" alt="f_1">
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7"id="fauter_size"  data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                    <div class="text">
+                                        <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star-half"></i></span></li>
+                                        </ul>
+                                        <p><span>$</span>1,300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="on_sale">
+        <div class="container">
+            <div class="header"  data-aos="fade-up"
+            data-aos-duration="1000"data-aos-anchor-placement="top-bottom">
+                <h1 style="font-style: italic; color: #f15900;">On-sale Products</h1><hr>
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="row"> 
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5" id="headphones_size"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <img src="resources/img/1plus_1.png" class="img-fluid" alt="sale 1">
+                            </div>
+                            <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7" id="headphones_size"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <div class="text">
+                                    <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star-half"></i></span></li>
+                                    </ul>
+                                    <p><span>$</span>1,300.00</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5" id="headphones_size"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <img src="resources/img/Smartwatchess.png" class="img-fluid" alt="sale 1">
+                            </div>
+                            <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7" id="headphones_size"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <div class="text">
+                                    <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star-half"></i></span></li>
+                                    </ul>
+                                    <p><span>$</span>1,300.00</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5" id="headphones_size"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <img src="resources/img/game1-600x550-preview.png" class="img-fluid" alt="sale 1">
+                            </div>
+                            <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7" id="headphones_size"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <div class="text">
+                                    <a href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star-half"></i></span></li>
+                                    </ul>
+                                    <p><span>$</span>1,300.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"  data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                        <div class="compani">
+                            <img src="resources/img/footer-widget-img-01.jpg" class="img-fluid py-5" alt="1">
+                        </div>
+                    </div>
+            </div> 
+        </div> 
+    </section>
+    <section id="sing" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-4 col-lg-4 col-xl-4" id="sing_size"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div class="sing">
+                        <span><i class="far fa-paper-plane"></i></span>
+                        <h2>Sing up to newsletter</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-4 col-lg-4 col-xl-4" id="sing_size"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <h2>......and receive <span>$coupon for</span></h2>
+                </div>
+                <div class="col-sm-4 col-md-4 col-4 col-lg-4 col-xl-4" id="sing_size"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom"> 
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder=" Enter your E-mail address" aria-label="Enter E-mail" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                        <span class="input-group-text">Sing up</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <h1>electronics<span>.</span></h1>
+                    <div class="contact_number">
+                        <div class="contact_icon">
+                            <span><i class="fas fa-headset"></i>Got Questions ? Call us 24/2 !</span></br>
+                            <span><i class="fas fa-mobile-alt"></i>+88888888888888</span>
+                        </div> 
+                        <div class="contact_info py-2">
+                            <h3>Contact Info :</h3>
+                            <p>17 Road , Dhaka ,Bangladesh</p>
+                        </div>
+                        <div class="socail">
+                            <ul>
+                                <li><a href="#"><span>
+                                    <i class="fab fa-facebook"></i>
+                                </span></a></li>
+                                    <li><a href="#"><span>
+                                        <i class="fab fa-invision"></i>
+                                    </span></a></li>
+                                <li><a href="#"><span>
+                                    <i class="fab fa-whatsapp"></i>
+                                </span></a></li>
+                                <li><a href="#"><span>
+                                    <i class="fab fa-twitter"></i>
+                                </span></a></li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"  data-aos="fade-up"
+                data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <div id="about_content">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"  data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <h2>Find It Fast</h2>
+                                <ul>
+                                    <li><a href="#">Laptops & Computers</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Phones & Tablets</a></li>
+                                    <li><a href="#">Games & Consoles</a></li>
+                                    <li><a href="#">TV & Audio</a></li>
+                                    <li><a href="#">Headphones</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                                <h2>About</h2>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="#">Compare</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Store Directory</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"  data-aos="fade-up"
+                            data-aos-duration="1000"data-aos-anchor-placement="top-bottom">
+                                <h2>Customer Care</h2>
+                                <ul>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Track your Order</a></li>
+                                    <li><a href="#">Customer Service</a></li>
+                                    <li><a href="#">Returns/Exchange</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Product Support</a></li>
+                                </ul>
+                                <div class="logo">
+                                    <img class="img-fluid" src="resources/img/patment-icon1.png" alt="patment">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><h1 class="py-4" style="font-style: italic;">Designer: Rashid Khan</h1></div>
+        </div>
+    </footer>
+    <script src="vendors/js/jQuery.js"></script>
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/aos.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <script src="vendors/js/popper.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="resources/js/min.js"></script> 
+</body>
+</html>

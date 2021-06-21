@@ -1,0 +1,167 @@
+@media only screen and (max-width:992px) {
+    html{
+        font-size: 50%;
+    }
+#top_rated .owl-carousel .items .top_content a{
+    font-size: 2rem;
+}
+
+}
+@media only screen and (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+    #letest_products .wraper .item .letest_text h4 {
+        font-size: 1.5rem;
+    }
+    #top_rated .owl-carousel .items .top_content strong{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:575px) {
+    #col_size{
+        width: 50%;
+    }
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .text-center { 
+        padding: 1rem 1.4rem; 
+    }
+    #best_seller .owl-carousel .items .row .best_img img {
+        max-width: 70%;
+        margin: auto;
+    }
+    #featured .row .featured_content .items .row #fauter_size{
+        max-width: 50%;
+        text-align: center;
+    }
+    #on_sale .row .col-sm-6 .compani img{
+        display: none;
+    }
+    #featured .row .featured_content .items .row #fauter_size img {
+        max-width: 65%;
+    }
+    #head_phone .row .col-sm-3 .head_img img {
+        max-width: 70%;
+    }
+    #head_phone .row .col-sm-3 .head_text h4 {
+        font-size: 2rem;
+        font-style: italic;
+        margin-bottom: 1rem;
+    }
+    #head_phone .row .col-sm-3 .head_text a {
+        font-size: 2rem;
+        color: #da4500;
+    }
+    #head_phone .row .col-sm-3 .head_img img {
+        border: none;
+    } 
+    #on_sale .row .col-sm-6 .row .col-sm-5 img {
+        width: 65%;
+        margin: auto;
+    }
+    #sing #sing_size{
+        max-width: 33.33%;
+    }
+    footer{
+        text-align: center;
+    }
+    header nav .menu .mobileManu #myNav .overlay-content .drop_dowan span {
+        padding-left: 50%;
+    }
+}
+@media only screen and (max-width:480px) {
+    html{
+        font-size: 45%;
+    }
+    #home #home_bg #carouselId .carousel-inner .carousel-item .carousel-caption {
+        top: 10%;
+    }
+    #home #home_bg #carouselId .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .text-center { 
+        padding: 1rem 1.4rem; 
+    }
+    #letest_products .wraper .item{
+        text-align: center;
+    } 
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .text-center h3 {
+        font-size: 2.5rem;
+    }
+    #letest_products .wraper .item #letest_img img {
+        width: 100%;
+    }
+    header nav .menu .mobileManu #myNav .overlay-content .drop_dowan span {
+        padding-left: 40%;
+    }
+}
+@media only screen and (max-width:375px) {
+    #home #home_bg #carouselId .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .text-center {
+        padding: 1rem 2.5rem;
+    }
+    #deals #carouselId_2 .carousel-inner .carousel-item .row #col_size { 
+        text-align: center;
+        width: 100%;
+    }
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .deals_text p { 
+        font-size: 2rem; 
+    }
+    header nav .menu .mobileManu #myNav .overlay-content .drop_dowan span {
+        padding-left: 20%;
+    }
+    #sing .col-sm-4 h2 {
+        font-size: 1rem;
+        padding-top: 1rem;
+        color: #000;
+    }
+    #sing .col-sm-4 .sing h2 {
+        padding-top: 1rem;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #000;
+    }
+}
+@media only screen and (max-width:280px) {
+    #home #home_bg #carouselId .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 2rem;
+    } 
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .text-center h3 {
+        font-size: 3rem;
+        font-style: italic;
+    }
+    #deals #carouselId_2 .carousel-inner .carousel-item .row .text-center {
+        padding: 1rem 1.8rem;
+    }
+    #featured .row .featured_content .items .row #fauter_size {
+        max-width: 50%;
+        text-align: center;
+        padding: 2ren 0rem;
+        margin-top: 2rem;
+    }
+    header nav .menu .logo a {
+        font-size: 2.5rem;
+    }
+    header nav .menu .mobileManu #myNav .overlay-content .drop_dowan span {
+        padding-left: 25%;
+    }
+    header nav .menu .mobileManu #myNav .overlay-content .drop_dowan span {
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width:215px) {
+    #home #home_bg #carouselId .carousel-inner .carousel-item .carousel-caption {
+        top: 0%;
+    }
+    #home #home_bg #carouselId .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+    header nav .menu .logo a {
+        font-size: 2rem;
+    }
+    header nav .menu .mobileManu #myNav .overlay-content .drop_dowan span {
+        padding-left: 5%;
+    }
+}
